@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Rutina de Entrenamiento</title>
+    <style>
+        @page { size: A4; margin: 2cm; }
+        body { font-family: 'Helvetica', sans-serif; color: #333; }
+        
+        .header { text-align: center; margin-bottom: 30px; border-bottom: 2px solid #2ecc71; padding-bottom: 10px; }
+        .header h1 { margin: 0; color: #2c3e50; text-transform: uppercase; }
+        .header p { margin: 5px 0; color: #7f8c8d; }
+
+        .info-box { background-color: #f4f6f7; padding: 15px; border-radius: 8px; margin-bottom: 20px; display: flex; justify-content: space-between; }
+        .info-item { margin-bottom: 5px; font-weight: bold; color: #2c3e50; }
+        .info-value { font-weight: normal; color: #555; }
+
+        /* Estilo para el Título del Día (Ej: Día 1) */
+        .day-header {
+            background-color: #2c3e50; 
+            color: white; 
+            padding: 10px; 
+            margin-top: 25px; 
+            font-weight: bold; 
+            border-radius: 5px 5px 0 0; /* Bordes redondeados solo arriba */
+            font-size: 15px;
+        }
+
+        table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
+        th { background-color: #34495e; color: white; padding: 10px; text-align: left; font-size: 13px; border-bottom: 2px solid #2c3e50; }
+        td { padding: 10px; border-bottom: 1px solid #ddd; font-size: 13px; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+
+        .video-link { color: #e74c3c; text-decoration: none; font-weight: bold; font-size: 12px; }
+        .video-link:hover { text-decoration: underline; }
+
+        .footer { margin-top: 50px; text-align: center; font-size: 10px; color: #aaa; border-top: 1px solid #eee; padding-top: 10px; }
+        
+        /* Evitar que una tabla se corte a la mitad entre dos páginas */
+        table, .day-header { page-break-inside: avoid; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Plan de Entrenamiento</h1>
+        <p>Preparación Física Profesional</p>
+    </div>
+
+    <div class="info-box">
+        <div class="info-item">Cliente: <span class="info-value">{{ nombre_cliente }}</span></div>
+        <div class="info-item">Fase: <span class="info-value">{{ fase }}</span></div>
+        <div class="info-item">Fecha: <span class="info-value">{{ fecha }}</span></div>
+    </div>
+
+    {% for dia, lista in dias.items() %}
+    
+    <div class="day-header">{{ dia }}</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th width="35%">Ejercicio</th>
+                <th width="10%">Series</th>
+                <th width="10%">Reps</th>
+                <th width="25%">Carga Sugerida</th>
+                <th width="20%">Video</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for fila in lista %}
+            <tr>
+                <td>{{ fila.nombre }}</td>
+                <td style="text-align: center;">{{ fila.series }}</td>
+                <td style="text-align: center;">{{ fila.reps }}</td>
+                <td><strong>{{ fila.peso }}</strong></td>
+                <td>
+                    {% if fila.url %}
+                        <a href="{{ fila.url }}" class="video-link" target="_blank">Ver Video ▶</a>
+                    {% else %}
+                        <span style="color: #ccc;">-</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endfor %}
+    {% if grafico %}
+    <div style="margin-top: 40px; text-align: center; page-break-inside: avoid;">
+        <h3 style="color: #2c3e50; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 20px;">Evolución de Fuerza (Sentadilla)</h3>
+        <img src="{{ grafico }}" style="width: 80%; max-width: 600px; border: 1px solid #eee; padding: 5px; background: white;">
+    </div>
+    {% endif %}
+
+    <div class="footer">
+        Generado automáticamente por AppEntrenador Pro - {{ fecha }}
+    </div>
+
+</body>
+</html>
