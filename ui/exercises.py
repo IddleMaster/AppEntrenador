@@ -130,10 +130,13 @@ def ExercisesView(page: ft.Page):
         ft.dropdown.Option("Shoulders"), 
         ft.dropdown.Option("Biceps"), 
         ft.dropdown.Option("Triceps"), 
-        ft.dropdown.Option("Core/Abs")
+        ft.dropdown.Option("Core/Abs"),
+        ft.dropdown.Option("Cardio")
     ])
     category_dropdown = ft.Dropdown(label="Categoría", width=300, options=[
-        ft.dropdown.Option("Gym"), ft.dropdown.Option("HomeGym"), ft.dropdown.Option("Calisthenics")
+        ft.dropdown.Option("Gym"), 
+        ft.dropdown.Option("HomeGym"), 
+        ft.dropdown.Option("Calisthenics")
     ])
     difficulty_dropdown = ft.Dropdown(label="Dificultad", width=300, options=[
         ft.dropdown.Option("Beginner"), ft.dropdown.Option("Intermediate"), ft.dropdown.Option("Advanced")

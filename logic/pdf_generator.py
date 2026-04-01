@@ -1,6 +1,5 @@
 import os
 import sys
-from logic.charts import generar_grafico_progreso
 from database.models import Cliente, obtener_sesion
 import pathlib
 
@@ -22,10 +21,9 @@ from jinja2 import Environment, FileSystemLoader
 from weasyprint import HTML
 import datetime
 
-def generar_pdf_rutina(nombre_cliente, fase, lista_ejercicios):
+def generar_pdf_rutina(nombre_cliente, fase, lista_ejercicios, ruta_destino):
     """
-    Genera un PDF con la rutina organizada por DÍAS.
-    lista_ejercicios: Lista de diccionarios que incluyen la clave "dia"
+    Genera un PDF con la rutina organizada por DÍAS, guardándolo en ruta_destino.
     """
     
     # 1. Configurar Jinja2
@@ -33,35 +31,10 @@ def generar_pdf_rutina(nombre_cliente, fase, lista_ejercicios):
     env = Environment(loader=FileSystemLoader(ruta_templates))
     template = env.get_template('reporte.html')
     
-    # 2. Buscar ID del cliente (para el gráfico)
-    session = obtener_sesion()
-    cliente_id = None
-    try:
-        # Asumimos que el nombre viene como "Nombre Apellido"
-        primer_nombre = nombre_cliente.split(" ")[0]
-        cliente = session.query(Cliente).filter(Cliente.nombre.like(f"%{primer_nombre}%")).first()
-        if cliente:
-            cliente_id = cliente.id
-    except Exception as e:
-        print(f"Error buscando cliente: {e}")
-    finally:
-        session.close()
-
-    # 3. Generar el Gráfico de Progreso
-    ruta_grafico = ""
-    if cliente_id:
-        # Genera gráfico de RM Sentadilla (puedes cambiarlo si quieres)
-        ruta_grafico_generada = generar_grafico_progreso(cliente_id, "rm_sentadilla")
-        
-        # Convertir a formato URI para WeasyPrint
-        if ruta_grafico_generada:
-            ruta_grafico = pathlib.Path(ruta_grafico_generada).as_uri()
-
-    # --- 4. NUEVA LÓGICA: Agrupar ejercicios por DÍA ---
+    # 2. NUEVA LÓGICA: Agrupar ejercicios por DÍA
     rutina_por_dias = {}
     
-    # Ordenamos primero por día para que salgan en orden (Día 1, Día 2...)
-    # Nota: lista_ejercicios viene de routines.py y cada item tiene la clave "dia"
+    # Ordenamos primero por día para que salgan en orden (Semana 1 - Día 1, etc.)
     lista_ejercicios.sort(key=lambda x: x["dia"])
     
     for item in lista_ejercicios:
@@ -69,26 +42,51 @@ def generar_pdf_rutina(nombre_cliente, fase, lista_ejercicios):
         if dia not in rutina_por_dias:
             rutina_por_dias[dia] = []
         rutina_por_dias[dia].append(item)
-    # ---------------------------------------------------
 
-    # 5. Preparar los datos para el HTML
+    # 3. Preparar los datos para el HTML
     datos = {
         "nombre_cliente": nombre_cliente,
         "fase": fase,
         "fecha": datetime.datetime.now().strftime("%d/%m/%Y"),
-        "dias": rutina_por_dias,  # <--- IMPORTANTE: Enviamos el diccionario agrupado, NO la lista plana
-        "grafico": ruta_grafico
+        "dias": rutina_por_dias  # Enviamos el diccionario agrupado
     }
     
-    # 6. Renderizar HTML
+    # 4. Renderizar HTML
     html_string = template.render(datos)
     
-    # 7. Crear nombre de archivo
-    nombre_limpio = nombre_cliente.replace(" ", "_")
-    nombre_archivo = f"Rutina_{nombre_limpio}_{fase}.pdf"
+    # 5. Generar PDF en la ruta elegida por el usuario
+    print(f"Generando PDF para {nombre_cliente} en {ruta_destino}...")
+    HTML(string=html_string).write_pdf(ruta_destino)
     
-    # 8. Generar PDF
-    print(f"Generando PDF para {nombre_cliente}...")
-    HTML(string=html_string).write_pdf(nombre_archivo)
+    return ruta_destino
+
+
+def generar_pdf_grafico(nombre_cliente, metrica, ruta_img, ruta_destino):
+    """
+    Genera un PDF exclusivo para el reporte de evolución (Gráfico).
+    No necesita plantilla externa, usa un HTML inyectado.
+    """
+    fecha = datetime.datetime.now().strftime("%d/%m/%Y")
     
-    return nombre_archivo
+    # Convertimos la ruta de la imagen a un formato URI que WeasyPrint pueda leer
+    ruta_uri = pathlib.Path(ruta_img).as_uri() if ruta_img else ""
+    
+    html_string = f"""
+    <html>
+    <head>
+        <style>
+            body {{ font-family: Arial, sans-serif; text-align: center; padding: 40px; }}
+            h1 {{ color: #2c3e50; font-size: 30px; }}
+            h2 {{ color: #7f8c8d; font-size: 20px; border-bottom: 2px solid #eee; padding-bottom: 10px; }}
+            img {{ max-width: 100%; height: auto; margin-top: 30px; border: 1px solid #ddd; border-radius: 8px; padding: 15px; }}
+        </style>
+    </head>
+    <body>
+        <h1>Reporte de Evolución Física</h1>
+        <h2>Cliente: {nombre_cliente} | Métrica: {metrica} | Fecha: {fecha}</h2>
+        <img src="{ruta_uri}" />
+    </body>
+    </html>
+    """
+    HTML(string=html_string).write_pdf(ruta_destino)
+    return ruta_destino

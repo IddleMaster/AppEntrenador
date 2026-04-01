@@ -50,11 +50,14 @@ class Evaluacion(Base):
     peso = Column(Float)
     imc = Column(Float)
     porcentaje_grasa = Column(Float)
-    perimetro_cintura = Column(Float)
+    perimetro_cintura = Column(Float) # <-- Cintura ya existía en tu modelo, solo faltaba en la UI
     perimetro_cadera = Column(Float)
-    #--Añadido
     perimetro_brazos = Column(Float)
     perimetro_piernas = Column(Float)
+    
+    # --- NUEVOS CAMPOS ---
+    metodo_grasa = Column(String) 
+    suma_pliegues = Column(Float)
     
     rm_sentadilla = Column(Float)
     rm_hip_thrust = Column(Float)

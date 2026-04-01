@@ -50,10 +50,6 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
-  ('pyi_rth_mplconfig',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_mplconfig.py',
-   'PYSOURCE'),
   ('pyi_rth_setuptools',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
@@ -62,11 +58,43 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
    'PYSOURCE'),
+  ('pyi_rth_mplconfig',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_mplconfig.py',
+   'PYSOURCE'),
   ('main',
    'C:\\Users\\Elias Alcaide\\Desktop\\MrViruz\\AppEntrenador\\main.py',
    'PYSOURCE'),
   ('python310.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\python310.dll',
+   'BINARY'),
+  ('pangoft2-1.0-0.dll',
+   'C:\\Program Files\\Graphviz\\bin\\pangoft2-1.0-0.dll',
+   'BINARY'),
+  ('fontconfig-1.dll',
+   'C:\\Program Files\\Graphviz\\bin\\fontconfig-1.dll',
+   'BINARY'),
+  ('gobject-2.0-0.dll',
+   'C:\\Program Files\\Graphviz\\bin\\gobject-2.0-0.dll',
+   'BINARY'),
+  ('harfbuzz.dll', 'C:\\Program Files\\Graphviz\\bin\\harfbuzz.dll', 'BINARY'),
+  ('pango-1.0-0.dll',
+   'C:\\Program Files\\Graphviz\\bin\\pango-1.0-0.dll',
+   'BINARY'),
+  ('libpangoft2-1.0-0.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libpangoft2-1.0-0.dll',
+   'BINARY'),
+  ('libharfbuzz-0.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libharfbuzz-0.dll',
+   'BINARY'),
+  ('libgobject-2.0-0.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libgobject-2.0-0.dll',
+   'BINARY'),
+  ('libfontconfig-1.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libfontconfig-1.dll',
+   'BINARY'),
+  ('libpango-1.0-0.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libpango-1.0-0.dll',
    'BINARY'),
   ('numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll',
    'C:\\Users\\Elias '
@@ -76,42 +104,20 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll',
    'BINARY'),
-  ('pango-1.0-0.dll',
-   'C:\\Program Files\\Graphviz\\bin\\pango-1.0-0.dll',
-   'BINARY'),
-  ('libpango-1.0-0.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libpango-1.0-0.dll',
-   'BINARY'),
-  ('fontconfig-1.dll',
-   'C:\\Program Files\\Graphviz\\bin\\fontconfig-1.dll',
-   'BINARY'),
-  ('libfontconfig-1.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libfontconfig-1.dll',
-   'BINARY'),
-  ('gobject-2.0-0.dll',
-   'C:\\Program Files\\Graphviz\\bin\\gobject-2.0-0.dll',
-   'BINARY'),
-  ('libharfbuzz-0.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libharfbuzz-0.dll',
-   'BINARY'),
-  ('harfbuzz.dll', 'C:\\Program Files\\Graphviz\\bin\\harfbuzz.dll', 'BINARY'),
-  ('pangoft2-1.0-0.dll',
-   'C:\\Program Files\\Graphviz\\bin\\pangoft2-1.0-0.dll',
-   'BINARY'),
-  ('libgobject-2.0-0.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libgobject-2.0-0.dll',
-   'BINARY'),
-  ('libpangoft2-1.0-0.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libpangoft2-1.0-0.dll',
-   'BINARY'),
-  ('_socket.pyd',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_socket.pyd',
+  ('_ctypes.pyd',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
   ('select.pyd',
    'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\select.pyd',
    'EXTENSION'),
-  ('_overlapped.pyd',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_overlapped.pyd',
+  ('_socket.pyd',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_socket.pyd',
    'EXTENSION'),
   ('_lzma.pyd',
    'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_lzma.pyd',
@@ -119,23 +125,17 @@
   ('_bz2.pyd',
    'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_bz2.pyd',
    'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
   ('_ssl.pyd',
    'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_ssl.pyd',
    'EXTENSION'),
   ('_queue.pyd',
    'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_queue.pyd',
-   'EXTENSION'),
-  ('_decimal.pyd',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_decimal.pyd',
-   'EXTENSION'),
-  ('_hashlib.pyd',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_hashlib.pyd',
-   'EXTENSION'),
-  ('unicodedata.pyd',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\unicodedata.pyd',
-   'EXTENSION'),
-  ('_ctypes.pyd',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_ctypes.pyd',
    'EXTENSION'),
   ('_multiprocessing.pyd',
    'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_multiprocessing.pyd',
@@ -150,6 +150,36 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe\\_speedups.cp310-win_amd64.pyd',
    'EXTENSION'),
+  ('_cffi_backend.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\_cffi_backend.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('fontTools\\varLib\\iup.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\fontTools\\varLib\\iup.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('fontTools\\misc\\bezierTools.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\fontTools\\misc\\bezierTools.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('_brotli.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\_brotli.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('zopfli\\zopfli.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\zopfli\\zopfli.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('numpy\\_core\\_multiarray_tests.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy\\_core\\_multiarray_tests.cp310-win_amd64.pyd',
+   'EXTENSION'),
   ('numpy\\_core\\_multiarray_umath.cp310-win_amd64.pyd',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp310-win_amd64.pyd',
@@ -157,76 +187,6 @@
   ('numpy\\linalg\\_umath_linalg.cp310-win_amd64.pyd',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('matplotlib\\backends\\_backend_agg.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\backends\\_backend_agg.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('matplotlib\\_path.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_path.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('_uuid.pyd',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_uuid.pyd',
-   'EXTENSION'),
-  ('PIL\\_webp.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_webp.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('PIL\\_imagingtk.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_imagingtk.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('PIL\\_avif.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_avif.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('PIL\\_imagingcms.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_imagingcms.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('PIL\\_imagingmath.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_imagingmath.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('_elementtree.pyd',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_elementtree.pyd',
-   'EXTENSION'),
-  ('PIL\\_imaging.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_imaging.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('matplotlib\\_image.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_image.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('kiwisolver\\_cext.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\kiwisolver\\_cext.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('matplotlib\\_tri.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_tri.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('matplotlib\\_qhull.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_qhull.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('contourpy\\_contourpy.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\contourpy\\_contourpy.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('matplotlib\\ft2font.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\ft2font.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('matplotlib\\_c_internal_utils.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_c_internal_utils.cp310-win_amd64.pyd',
-   'EXTENSION'),
-  ('numpy\\_core\\_multiarray_tests.cp310-win_amd64.pyd',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy\\_core\\_multiarray_tests.cp310-win_amd64.pyd',
    'EXTENSION'),
   ('numpy\\random\\mtrand.cp310-win_amd64.pyd',
    'C:\\Users\\Elias '
@@ -268,25 +228,65 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy\\fft\\_pocketfft_umath.cp310-win_amd64.pyd',
    'EXTENSION'),
-  ('_cffi_backend.cp310-win_amd64.pyd',
+  ('PIL\\_webp.cp310-win_amd64.pyd',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\_cffi_backend.cp310-win_amd64.pyd',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_webp.cp310-win_amd64.pyd',
    'EXTENSION'),
-  ('fontTools\\varLib\\iup.cp310-win_amd64.pyd',
+  ('PIL\\_imagingtk.cp310-win_amd64.pyd',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\fontTools\\varLib\\iup.cp310-win_amd64.pyd',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_imagingtk.cp310-win_amd64.pyd',
    'EXTENSION'),
-  ('fontTools\\misc\\bezierTools.cp310-win_amd64.pyd',
+  ('PIL\\_avif.cp310-win_amd64.pyd',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\fontTools\\misc\\bezierTools.cp310-win_amd64.pyd',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_avif.cp310-win_amd64.pyd',
    'EXTENSION'),
-  ('_brotli.cp310-win_amd64.pyd',
+  ('PIL\\_imagingcms.cp310-win_amd64.pyd',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\_brotli.cp310-win_amd64.pyd',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_imagingcms.cp310-win_amd64.pyd',
    'EXTENSION'),
-  ('zopfli\\zopfli.pyd',
+  ('PIL\\_imagingmath.cp310-win_amd64.pyd',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\zopfli\\zopfli.pyd',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_imagingmath.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\PIL\\_imaging.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\backends\\_backend_agg.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\backends\\_backend_agg.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_path.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_path.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_image.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_image.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kiwisolver\\_cext.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\kiwisolver\\_cext.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_tri.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_tri.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_qhull.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_qhull.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('contourpy\\_contourpy.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\contourpy\\_contourpy.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\ft2font.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\ft2font.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('matplotlib\\_c_internal_utils.cp310-win_amd64.pyd',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\_c_internal_utils.cp310-win_amd64.pyd',
    'EXTENSION'),
   ('_sqlite3.pyd',
    'C:\\Users\\Elias Alcaide\\miniconda3\\DLLs\\_sqlite3.pyd',
@@ -315,12 +315,34 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\greenlet\\_greenlet.cp310-win_amd64.pyd',
    'EXTENSION'),
-  ('zlib.dll', 'C:\\Users\\Elias Alcaide\\miniconda3\\zlib.dll', 'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-crt-stdio-l1-1-0.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Users\\Elias '
+   'Alcaide\\miniconda3\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('zlib.dll', 'C:\\Users\\Elias Alcaide\\miniconda3\\zlib.dll', 'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-heap-l1-1-0.dll',
@@ -328,74 +350,56 @@
   ('VCRUNTIME140.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\VCRUNTIME140.dll',
    'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Users\\Elias '
-   'Alcaide\\miniconda3\\api-ms-win-crt-environment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-private-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-private-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-utility-l1-1-0.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-utility-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140_1.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\VCRUNTIME140_1.dll',
-   'BINARY'),
-  ('fribidi-0.dll',
-   'C:\\Program Files\\Graphviz\\bin\\fribidi-0.dll',
-   'BINARY'),
-  ('glib-2.0-0.dll',
-   'C:\\Program Files\\Graphviz\\bin\\glib-2.0-0.dll',
    'BINARY'),
   ('gio-2.0-0.dll',
    'C:\\Program Files\\Graphviz\\bin\\gio-2.0-0.dll',
    'BINARY'),
-  ('libglib-2.0-0.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libglib-2.0-0.dll',
+  ('freetype.dll', 'C:\\Program Files\\Graphviz\\bin\\freetype.dll', 'BINARY'),
+  ('glib-2.0-0.dll',
+   'C:\\Program Files\\Graphviz\\bin\\glib-2.0-0.dll',
    'BINARY'),
-  ('libfribidi-0.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libfribidi-0.dll',
+  ('libexpat.dll', 'C:\\Program Files\\Graphviz\\bin\\libexpat.dll', 'BINARY'),
+  ('api-ms-win-crt-multibyte-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-multibyte-l1-1-0.dll',
+   'BINARY'),
+  ('ffi-8.dll', 'C:\\Program Files\\Graphviz\\bin\\ffi-8.dll', 'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program Files\\Graphviz\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('fribidi-0.dll',
+   'C:\\Program Files\\Graphviz\\bin\\fribidi-0.dll',
    'BINARY'),
   ('libgio-2.0-0.dll',
    'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libgio-2.0-0.dll',
    'BINARY'),
-  ('libthai-0.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libthai-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-multibyte-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-multibyte-l1-1-0.dll',
-   'BINARY'),
-  ('libexpat.dll', 'C:\\Program Files\\Graphviz\\bin\\libexpat.dll', 'BINARY'),
-  ('freetype.dll', 'C:\\Program Files\\Graphviz\\bin\\freetype.dll', 'BINARY'),
-  ('libiconv-2.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libiconv-2.dll',
-   'BINARY'),
   ('libfreetype-6.dll',
    'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libfreetype-6.dll',
+   'BINARY'),
+  ('libglib-2.0-0.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libglib-2.0-0.dll',
+   'BINARY'),
+  ('libgraphite2.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libgraphite2.dll',
+   'BINARY'),
+  ('libgcc_s_seh-1.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libgcc_s_seh-1.dll',
+   'BINARY'),
+  ('libstdc++-6.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libstdc++-6.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libffi-7.dll',
+   'BINARY'),
+  ('libiconv-2.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libiconv-2.dll',
    'BINARY'),
   ('libintl-8.dll',
    'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libintl-8.dll',
@@ -403,18 +407,17 @@
   ('libexpat-1.dll',
    'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libexpat-1.dll',
    'BINARY'),
-  ('libgcc_s_seh-1.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libgcc_s_seh-1.dll',
+  ('libthai-0.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libthai-0.dll',
    'BINARY'),
-  ('ffi-8.dll', 'C:\\Program Files\\Graphviz\\bin\\ffi-8.dll', 'BINARY'),
-  ('libgraphite2.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libgraphite2.dll',
+  ('libfribidi-0.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libfribidi-0.dll',
    'BINARY'),
-  ('libstdc++-6.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libstdc++-6.dll',
+  ('api-ms-win-crt-private-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-crt-private-l1-1-0.dll',
    'BINARY'),
-  ('libffi-7.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libffi-7.dll',
+  ('ffi.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\Library\\bin\\ffi.dll',
    'BINARY'),
   ('liblzma.dll', 'C:\\Program Files\\Graphviz\\bin\\liblzma.dll', 'BINARY'),
   ('LIBBZ2.dll',
@@ -425,9 +428,6 @@
    'BINARY'),
   ('libssl-1_1-x64.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\Library\\bin\\libssl-1_1-x64.dll',
-   'BINARY'),
-  ('ffi.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\Library\\bin\\ffi.dll',
    'BINARY'),
   ('MSVCP140.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\MSVCP140.dll',
@@ -441,41 +441,96 @@
   ('ucrtbase.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\ucrtbase.dll',
    'BINARY'),
-  ('intl-8.dll', 'C:\\Program Files\\Graphviz\\bin\\intl-8.dll', 'BINARY'),
-  ('iconv-2.dll', 'C:\\Program Files\\Graphviz\\bin\\iconv-2.dll', 'BINARY'),
-  ('pcre2-8.dll', 'C:\\Program Files\\Graphviz\\bin\\pcre2-8.dll', 'BINARY'),
   ('gmodule-2.0-0.dll',
    'C:\\Program Files\\Graphviz\\bin\\gmodule-2.0-0.dll',
    'BINARY'),
+  ('intl-8.dll', 'C:\\Program Files\\Graphviz\\bin\\intl-8.dll', 'BINARY'),
   ('zlib1.dll', 'C:\\Program Files\\Graphviz\\bin\\zlib1.dll', 'BINARY'),
+  ('libpng16.dll', 'C:\\Program Files\\Graphviz\\bin\\libpng16.dll', 'BINARY'),
+  ('bz2.dll', 'C:\\Program Files\\Graphviz\\bin\\bz2.dll', 'BINARY'),
+  ('brotlidec.dll',
+   'C:\\Program Files\\Graphviz\\bin\\brotlidec.dll',
+   'BINARY'),
+  ('iconv-2.dll', 'C:\\Program Files\\Graphviz\\bin\\iconv-2.dll', 'BINARY'),
+  ('pcre2-8.dll', 'C:\\Program Files\\Graphviz\\bin\\pcre2-8.dll', 'BINARY'),
+  ('libgmodule-2.0-0.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libgmodule-2.0-0.dll',
+   'BINARY'),
+  ('libbz2-1.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libbz2-1.dll',
+   'BINARY'),
+  ('libbrotlidec.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libbrotlidec.dll',
+   'BINARY'),
+  ('libpng16-16.dll',
+   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libpng16-16.dll',
+   'BINARY'),
   ('libpcre-1.dll',
    'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libpcre-1.dll',
    'BINARY'),
   ('libwinpthread-1.dll',
    'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libwinpthread-1.dll',
    'BINARY'),
-  ('libgmodule-2.0-0.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libgmodule-2.0-0.dll',
-   'BINARY'),
   ('libdatrie-1.dll',
    'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libdatrie-1.dll',
    'BINARY'),
-  ('libpng16.dll', 'C:\\Program Files\\Graphviz\\bin\\libpng16.dll', 'BINARY'),
-  ('bz2.dll', 'C:\\Program Files\\Graphviz\\bin\\bz2.dll', 'BINARY'),
-  ('brotlidec.dll',
-   'C:\\Program Files\\Graphviz\\bin\\brotlidec.dll',
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
-  ('libpng16-16.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libpng16-16.dll',
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
-  ('libbrotlidec.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libbrotlidec.dll',
-   'BINARY'),
-  ('libbz2-1.dll',
-   'C:\\Program Files\\GTK3-Runtime Win64\\bin\\libbz2-1.dll',
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Users\\Elias '
+   'Alcaide\\miniconda3\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Users\\Elias '
+   'Alcaide\\miniconda3\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Users\\Elias '
+   'Alcaide\\miniconda3\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Users\\Elias '
+   'Alcaide\\miniconda3\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-file-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Users\\Elias '
@@ -484,78 +539,23 @@
   ('api-ms-win-core-profile-l1-1-0.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-profile-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Users\\Elias '
-   'Alcaide\\miniconda3\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Users\\Elias '
-   'Alcaide\\miniconda3\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Users\\Elias '
-   'Alcaide\\miniconda3\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
   ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-file-l2-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-namedpipe-l1-1-0.dll',
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-util-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-interlocked-l1-1-0.dll',
    'C:\\Users\\Elias '
    'Alcaide\\miniconda3\\api-ms-win-core-interlocked-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
    'C:\\Users\\Elias '
-   'Alcaide\\miniconda3\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'Alcaide\\miniconda3\\api-ms-win-core-processthreads-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Users\\Elias '
-   'Alcaide\\miniconda3\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Users\\Elias '
-   'Alcaide\\miniconda3\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-console-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Users\\Elias Alcaide\\miniconda3\\api-ms-win-core-file-l1-1-0.dll',
+   'Alcaide\\miniconda3\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
   ('brotlicommon.dll',
    'C:\\Program Files\\Graphviz\\bin\\brotlicommon.dll',
@@ -566,6 +566,10 @@
   ('assets\\chart_1_peso.png',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\assets\\chart_1_peso.png',
+   'DATA'),
+  ('assets\\chart_1_peso_y_grasa.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\assets\\chart_1_peso_y_grasa.png',
    'DATA'),
   ('assets\\chart_1_rm_dominadas.png',
    'C:\\Users\\Elias '
@@ -591,963 +595,202 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\templates\\reporte.html',
    'DATA'),
-  ('dateutil\\zoneinfo\\dateutil-zoneinfo.tar.gz',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\dateutil\\zoneinfo\\dateutil-zoneinfo.tar.gz',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\matplotlib.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\matplotlib_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\help_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\hand.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward-symbolic.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\Stocks.csv',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Stocks.csv',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\back-symbolic.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\eeg.dat',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\eeg.dat',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\membrane.dat',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\membrane.dat',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\qt4_editor_options.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\logo2.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\logo2.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-poster.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-poster.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\matplotlibrc',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\matplotlibrc',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\home.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\filesave.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\filesave.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\hand.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\home-symbolic.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\filesave.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\home.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pagdo8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagdo8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\msft.csv',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\msft.csv',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\help-symbolic.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\back_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\goog.npz',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\goog.npz',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\README.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\README.txt',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move-symbolic.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\kpsewhich.lua',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\kpsewhich.lua',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\petroff10.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\petroff10.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\back.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\help.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\matplotlib.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\data_x_x2_x3.csv',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\data_x_x2_x3.csv',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\hand.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\help.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\home.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\filesave_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\matplotlib.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\home_large.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots.pdf',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\help.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\back.png',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\topobathy.npz',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\topobathy.npz',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\back.svg',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back.svg',
-   'DATA'),
-  ('certifi\\py.typed',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\certifi\\py.typed',
-   'DATA'),
-  ('certifi\\cacert.pem',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\certifi\\cacert.pem',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\20-unhint-small-dejavu-sans-mono.conf',
+  ('etc\\fonts\\conf.d\\69-urw-fallback-specifics.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\20-unhint-small-dejavu-sans-mono.conf',
+   'Win64\\etc\\fonts\\conf.d\\69-urw-fallback-specifics.conf',
    'DATA'),
-  ('weasyprint\\css\\html5_ua_form.css',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\weasyprint\\css\\html5_ua_form.css',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\45-latin.conf',
-   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\45-latin.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\80-delicious.conf',
+  ('etc\\fonts\\conf.d\\69-urw-fallback-backwards.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\80-delicious.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\65-nonlatin.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\65-nonlatin.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-d050000l.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-d050000l.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\20-unhint-small-dejavu-serif.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\20-unhint-small-dejavu-serif.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\20-unhint-small-dejavu-sans-mono.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\20-unhint-small-dejavu-sans-mono.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-bookman.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-bookman.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\69-urw-nimbus-roman.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\69-urw-nimbus-roman.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\57-dejavu-sans-mono.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\57-dejavu-sans-mono.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-nimbus-sans.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-nimbus-sans.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\60-generic.conf',
-   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\60-generic.conf',
-   'DATA'),
-  ('weasyprint\\css\\html5_ua.css',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\weasyprint\\css\\html5_ua.css',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\10-hinting-slight.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\10-hinting-slight.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\69-urw-gothic.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\69-urw-gothic.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\README',
-   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\README',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\69-urw-nimbus-sans.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\69-urw-nimbus-sans.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\69-urw-d050000l.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\69-urw-d050000l.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\20-unhint-small-dejavu-serif.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\20-unhint-small-dejavu-serif.conf',
-   'DATA'),
-  ('etc\\fonts\\fonts.conf',
-   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\fonts.conf',
-   'DATA'),
-  ('weasyprint\\css\\html5_ph.css',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\weasyprint\\css\\html5_ph.css',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\57-dejavu-serif.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\57-dejavu-serif.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\49-sansserif.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\49-sansserif.conf',
+   'Win64\\etc\\fonts\\conf.d\\69-urw-fallback-backwards.conf',
    'DATA'),
   ('etc\\fonts\\conf.d\\69-urw-p052.conf',
    'C:\\Program Files\\GTK3-Runtime '
    'Win64\\etc\\fonts\\conf.d\\69-urw-p052.conf',
    'DATA'),
-  ('etc\\fonts\\conf.d\\40-nonlatin.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\40-nonlatin.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-standard-symbols-ps.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-standard-symbols-ps.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\57-dejavu-sans-mono.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\57-dejavu-sans-mono.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\50-user.conf',
-   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\50-user.conf',
-   'DATA'),
   ('etc\\fonts\\conf.d\\20-unhint-small-vera.conf',
    'C:\\Program Files\\GTK3-Runtime '
    'Win64\\etc\\fonts\\conf.d\\20-unhint-small-vera.conf',
    'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-nimbus-roman.conf',
+  ('etc\\fonts\\conf.d\\69-urw-nimbus-sans.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-nimbus-roman.conf',
+   'Win64\\etc\\fonts\\conf.d\\69-urw-nimbus-sans.conf',
    'DATA'),
-  ('etc\\fonts\\conf.d\\45-generic.conf',
-   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\45-generic.conf',
+  ('weasyprint\\pdf\\sRGB2014.icc',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\weasyprint\\pdf\\sRGB2014.icc',
    'DATA'),
-  ('etc\\fonts\\conf.d\\57-dejavu-serif.conf',
+  ('etc\\fonts\\conf.d\\60-generic.conf',
+   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\60-generic.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\10-scale-bitmap-fonts.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\57-dejavu-serif.conf',
+   'Win64\\etc\\fonts\\conf.d\\10-scale-bitmap-fonts.conf',
    'DATA'),
   ('etc\\fonts\\conf.avail\\69-urw-bookman.conf',
    'C:\\Program Files\\GTK3-Runtime '
    'Win64\\etc\\fonts\\conf.avail\\69-urw-bookman.conf',
    'DATA'),
-  ('etc\\fonts\\conf.avail\\69-urw-p052.conf',
+  ('etc\\fonts\\conf.d\\40-nonlatin.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\69-urw-p052.conf',
+   'Win64\\etc\\fonts\\conf.d\\40-nonlatin.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\20-unhint-small-dejavu-sans.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\20-unhint-small-dejavu-sans.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\65-fonts-persian.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\65-fonts-persian.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\69-urw-nimbus-mono-ps.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\69-urw-nimbus-mono-ps.conf',
+   'DATA'),
+  ('weasyprint\\css\\html5_ua_form.css',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\weasyprint\\css\\html5_ua_form.css',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\69-urw-gothic.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\69-urw-gothic.conf',
    'DATA'),
   ('etc\\fonts\\conf.avail\\57-dejavu-sans.conf',
    'C:\\Program Files\\GTK3-Runtime '
    'Win64\\etc\\fonts\\conf.avail\\57-dejavu-sans.conf',
    'DATA'),
+  ('etc\\fonts\\conf.avail\\20-unhint-small-dejavu-serif.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\20-unhint-small-dejavu-serif.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\69-urw-d050000l.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\69-urw-d050000l.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\45-generic.conf',
+   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\45-generic.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\69-urw-nimbus-sans.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\69-urw-nimbus-sans.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\60-latin.conf',
+   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\60-latin.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\69-urw-fallback-backwards.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\69-urw-fallback-backwards.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\69-urw-standard-symbols-ps.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\69-urw-standard-symbols-ps.conf',
+   'DATA'),
   ('etc\\fonts\\conf.avail\\69-urw-z003.conf',
    'C:\\Program Files\\GTK3-Runtime '
    'Win64\\etc\\fonts\\conf.avail\\69-urw-z003.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\69-urw-d050000l.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\69-urw-d050000l.conf',
    'DATA'),
   ('etc\\fonts\\conf.d\\69-urw-c059.conf',
    'C:\\Program Files\\GTK3-Runtime '
    'Win64\\etc\\fonts\\conf.d\\69-urw-c059.conf',
    'DATA'),
+  ('etc\\fonts\\conf.d\\65-nonlatin.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\65-nonlatin.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\69-urw-p052.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\69-urw-p052.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\57-dejavu-sans.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\57-dejavu-sans.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\50-user.conf',
+   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\50-user.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\69-urw-fallback-generics.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\69-urw-fallback-generics.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\30-metric-aliases.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\30-metric-aliases.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\45-latin.conf',
+   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\45-latin.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\51-local.conf',
+   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\51-local.conf',
+   'DATA'),
   ('etc\\fonts\\conf.d\\20-unhint-small-dejavu-sans.conf',
    'C:\\Program Files\\GTK3-Runtime '
    'Win64\\etc\\fonts\\conf.d\\20-unhint-small-dejavu-sans.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\80-delicious.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\80-delicious.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\69-urw-standard-symbols-ps.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\69-urw-standard-symbols-ps.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\57-dejavu-serif.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\57-dejavu-serif.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\57-dejavu-sans-mono.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\57-dejavu-sans-mono.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\20-unhint-small-dejavu-sans-mono.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\20-unhint-small-dejavu-sans-mono.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\69-urw-c059.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\69-urw-c059.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\69-urw-nimbus-roman.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\69-urw-nimbus-roman.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\69-urw-nimbus-roman.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\69-urw-nimbus-roman.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\69-urw-fallback-generics.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\69-urw-fallback-generics.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\69-urw-z003.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\69-urw-z003.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\57-dejavu-sans-mono.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\57-dejavu-sans-mono.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\69-unifont.conf',
+   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\69-unifont.conf',
+   'DATA'),
+  ('etc\\fonts\\conf.avail\\69-urw-gothic.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.avail\\69-urw-gothic.conf',
+   'DATA'),
+  ('weasyprint\\css\\html5_ph.css',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\weasyprint\\css\\html5_ph.css',
+   'DATA'),
+  ('etc\\fonts\\conf.d\\20-unhint-small-dejavu-serif.conf',
+   'C:\\Program Files\\GTK3-Runtime '
+   'Win64\\etc\\fonts\\conf.d\\20-unhint-small-dejavu-serif.conf',
+   'DATA'),
+  ('weasyprint\\css\\html5_ua.css',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\weasyprint\\css\\html5_ua.css',
    'DATA'),
   ('etc\\fonts\\conf.avail\\69-urw-fallback-specifics.conf',
    'C:\\Program Files\\GTK3-Runtime '
@@ -1557,194 +800,199 @@
    'C:\\Program Files\\GTK3-Runtime '
    'Win64\\etc\\fonts\\conf.d\\90-synthetic.conf',
    'DATA'),
-  ('weasyprint\\pdf\\sRGB2014.icc',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\weasyprint\\pdf\\sRGB2014.icc',
+  ('etc\\fonts\\conf.d\\README',
+   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\README',
    'DATA'),
-  ('etc\\fonts\\conf.d\\10-scale-bitmap-fonts.conf',
+  ('etc\\fonts\\conf.d\\10-hinting-slight.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\10-scale-bitmap-fonts.conf',
+   'Win64\\etc\\fonts\\conf.d\\10-hinting-slight.conf',
    'DATA'),
-  ('etc\\fonts\\conf.d\\30-metric-aliases.conf',
+  ('etc\\fonts\\conf.avail\\57-dejavu-serif.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\30-metric-aliases.conf',
+   'Win64\\etc\\fonts\\conf.avail\\57-dejavu-serif.conf',
    'DATA'),
-  ('etc\\fonts\\conf.d\\65-fonts-persian.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\65-fonts-persian.conf',
+  ('etc\\fonts\\fonts.conf',
+   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\fonts.conf',
    'DATA'),
-  ('etc\\fonts\\conf.avail\\20-unhint-small-dejavu-sans.conf',
+  ('etc\\fonts\\conf.d\\69-urw-bookman.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\20-unhint-small-dejavu-sans.conf',
+   'Win64\\etc\\fonts\\conf.d\\69-urw-bookman.conf',
    'DATA'),
-  ('etc\\fonts\\conf.avail\\69-urw-standard-symbols-ps.conf',
+  ('etc\\fonts\\conf.d\\49-sansserif.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\69-urw-standard-symbols-ps.conf',
+   'Win64\\etc\\fonts\\conf.d\\49-sansserif.conf',
    'DATA'),
   ('etc\\fonts\\conf.avail\\69-urw-nimbus-mono-ps.conf',
    'C:\\Program Files\\GTK3-Runtime '
    'Win64\\etc\\fonts\\conf.avail\\69-urw-nimbus-mono-ps.conf',
    'DATA'),
-  ('etc\\fonts\\conf.avail\\69-urw-fallback-generics.conf',
+  ('etc\\fonts\\conf.d\\20-unhint-small-dejavu-sans-mono.conf',
    'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\69-urw-fallback-generics.conf',
+   'Win64\\etc\\fonts\\conf.d\\20-unhint-small-dejavu-sans-mono.conf',
    'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-z003.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-z003.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-fallback-backwards.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-fallback-backwards.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-fallback-generics.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-fallback-generics.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\60-latin.conf',
-   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\60-latin.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-nimbus-mono-ps.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-nimbus-mono-ps.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\69-urw-c059.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\69-urw-c059.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\51-local.conf',
-   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\51-local.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-unifont.conf',
-   'C:\\Program Files\\GTK3-Runtime Win64\\etc\\fonts\\conf.d\\69-unifont.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\57-dejavu-sans.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\57-dejavu-sans.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-gothic.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-gothic.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.avail\\69-urw-fallback-backwards.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.avail\\69-urw-fallback-backwards.conf',
-   'DATA'),
-  ('etc\\fonts\\conf.d\\69-urw-fallback-specifics.conf',
-   'C:\\Program Files\\GTK3-Runtime '
-   'Win64\\etc\\fonts\\conf.d\\69-urw-fallback-specifics.conf',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_pl_PL.dic',
+  ('pyphen\\dictionaries\\hyph_hr_HR.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_pl_PL.dic',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_hr_HR.dic',
    'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_te_IN.txt',
+  ('pyphen\\dictionaries\\hyph_kn_IN.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_te_IN.txt',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_kn_IN.dic',
    'DATA'),
-  ('pyphen\\dictionaries\\hyph_mn_MN.dic',
+  ('pyphen\\dictionaries\\hyph_et_EE.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_mn_MN.dic',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_et_EE.dic',
    'DATA'),
-  ('pyphen\\dictionaries\\hyph_be_BY.dic',
+  ('pyphen\\dictionaries\\README_hyph_pt_BR.txt',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_be_BY.dic',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_pt_BR.txt',
    'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_be_BY.txt',
+  ('pyphen\\dictionaries\\hyph_ru_RU.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_be_BY.txt',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_ru_RU.dic',
    'DATA'),
-  ('pyphen\\dictionaries\\hyph_sq_AL.dic',
+  ('pyphen\\dictionaries\\README_hyph_et_EE.txt',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sq_AL.dic',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_et_EE.txt',
    'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_sv.txt',
+  ('pyphen\\dictionaries\\hyph_mr_IN.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_sv.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_pl_PL.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_pl_PL.txt',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_mr_IN.dic',
    'DATA'),
   ('pyphen\\dictionaries\\hyph_el_GR.dic',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_el_GR.dic',
    'DATA'),
-  ('pyphen\\dictionaries\\hyph_de_AT.dic',
+  ('pyphen\\dictionaries\\README_hyph_cs_CZ.txt',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_de_AT.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_lv_LV.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_lv_LV.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_es.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_es.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_eu.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_eu.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_lt_LT.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_lt_LT.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_sr.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sr.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_uk_UA.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_uk_UA.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_sl_SI.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_sl_SI.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_is.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_is.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_gl.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_gl.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_te_IN.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_te_IN.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_nb_NO.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_nb_NO.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_sa_IN.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sa_IN.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_en_GB.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_en_GB.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_ro_RO.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_ro_RO.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_af_ZA.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_af_ZA.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_eu.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_eu.txt',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_cs_CZ.txt',
    'DATA'),
   ('pyphen\\dictionaries\\README_hyph_sq_AL.txt',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_sq_AL.txt',
    'DATA'),
-  ('pyphen\\dictionaries\\hyph_kn_IN.dic',
+  ('pyphen\\dictionaries\\hyph_nb_NO.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_kn_IN.dic',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_nb_NO.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_gl.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_gl.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_sk_SK.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sk_SK.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_as_IN.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_as_IN.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_nl_NL.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_nl_NL.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_zu_ZA.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_zu_ZA.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_sr.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sr.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_af_ZA.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_af_ZA.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_te_IN.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_te_IN.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_lv_LV.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_lv_LV.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_ca.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_ca.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_de_DE.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_de_DE.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_sr_Latn.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sr_Latn.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_pt_BR.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_pt_BR.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_de_AT.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_de_AT.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_de.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_de.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_da_DK.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_da_DK.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_lt_LT.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_lt_LT.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_uk_UA.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_uk_UA.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_eu.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_eu.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_be_BY.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_be_BY.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_sq_AL.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sq_AL.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_fr.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_fr.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_fr.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_fr.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_ro_RO.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_ro_RO.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_NO.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_NO.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_eu.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_eu.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_nn_NO.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_nn_NO.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_te_IN.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_te_IN.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_en_GB.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_en_GB.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_lv_LV.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_lv_LV.txt',
    'DATA'),
   ('pyphen\\dictionaries\\README_hyph_pt_PT.txt',
    'C:\\Users\\Elias '
@@ -1754,181 +1002,21 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_ca.txt',
    'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_de.txt',
+  ('pyphen\\dictionaries\\README_hyph_sv.txt',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_de.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_bg_BG.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_bg_BG.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_hu_HU.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_hu_HU.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_pt_BR.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_pt_BR.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_zu_ZA.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_zu_ZA.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_cs_CZ.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_cs_CZ.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_bg_BG.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_bg_BG.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_ro_RO.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_ro_RO.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_sr_Latn.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sr_Latn.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_da_DK.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_da_DK.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_sk_SK.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sk_SK.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_pa_IN.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_pa_IN.dic',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_sv.txt',
    'DATA'),
   ('pyphen\\dictionaries\\README_hyph_en_US.txt',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_en_US.txt',
    'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_el_GR.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_el_GR.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_it_IT.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_it_IT.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_mr_IN.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_mr_IN.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_ca.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_ca.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_en_GB.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_en_GB.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_is.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_is.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_cs_CZ.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_cs_CZ.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_NO.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_NO.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_gl.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_gl.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_en_US.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_en_US.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_de_CH.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_de_CH.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_nl_NL.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_nl_NL.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_de_DE.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_de_DE.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_da_DK.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_da_DK.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_ru_RU.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_ru_RU.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_pt_BR.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_pt_BR.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_sr.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_sr.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_fr.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_fr.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_uk_UA.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_uk_UA.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_th_TH.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_th_TH.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_as_IN.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_as_IN.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_lv_LV.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_lv_LV.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_et_EE.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_et_EE.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\update.sh',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\update.sh',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_lt.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_lt.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_th_TH.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_th_TH.txt',
-   'DATA'),
   ('pyphen\\dictionaries\\hyph_eo.dic',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_eo.dic',
    'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_sk_SK.txt',
+  ('pyphen\\dictionaries\\hyph_pt_PT.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_sk_SK.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_sv.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sv.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_et_EE.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_et_EE.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_or_IN.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_or_IN.dic',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_pt_PT.dic',
    'DATA'),
   ('pyphen\\dictionaries\\README_hyph_es.txt',
    'C:\\Users\\Elias '
@@ -1938,6 +1026,82 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_hu_HU.txt',
    'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_bg_BG.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_bg_BG.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_pa_IN.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_pa_IN.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_gl.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_gl.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_lt.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_lt.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_hr_HR.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_hr_HR.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_sk_SK.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_sk_SK.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_en_US.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_en_US.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_es.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_es.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_uk_UA.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_uk_UA.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_it_IT.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_it_IT.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_sv.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sv.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_is.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_is.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_be_BY.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_be_BY.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_en_GB.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_en_GB.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_th_TH.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_th_TH.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_cs_CZ.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_cs_CZ.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_is.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_is.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_bg_BG.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_bg_BG.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_th_TH.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_th_TH.dic',
+   'DATA'),
   ('pyphen\\dictionaries\\hyph_id_ID.dic',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_id_ID.dic',
@@ -1946,113 +1110,953 @@
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_it_IT.dic',
    'DATA'),
-  ('pyphen\\dictionaries\\README_hyph_hr_HR.txt',
+  ('pyphen\\dictionaries\\hyph_ro_RO.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_hr_HR.txt',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_hr_HR.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_hr_HR.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_nn_NO.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_nn_NO.dic',
-   'DATA'),
-  ('pyphen\\dictionaries\\hyph_fr.dic',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_fr.dic',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_ro_RO.dic',
    'DATA'),
   ('pyphen\\dictionaries\\hyph_sl_SI.dic',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sl_SI.dic',
    'DATA'),
-  ('pyphen\\dictionaries\\hyph_pt_PT.dic',
+  ('pyphen\\dictionaries\\README_hyph_el_GR.txt',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_pt_PT.dic',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_el_GR.txt',
    'DATA'),
-  ('setuptools-65.5.0.dist-info\\top_level.txt',
+  ('pyphen\\dictionaries\\hyph_pl_PL.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\top_level.txt',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_pl_PL.dic',
    'DATA'),
-  ('setuptools-65.5.0.dist-info\\INSTALLER',
+  ('pyphen\\dictionaries\\README_hyph_pl_PL.txt',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\INSTALLER',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_pl_PL.txt',
    'DATA'),
-  ('setuptools-65.5.0.dist-info\\RECORD',
+  ('pyphen\\dictionaries\\hyph_da_DK.dic',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\RECORD',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_da_DK.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_hu_HU.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_hu_HU.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_or_IN.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_or_IN.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\update.sh',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\update.sh',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_sr.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_sr.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\README_hyph_sl_SI.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\README_hyph_sl_SI.txt',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_de_CH.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_de_CH.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_sa_IN.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_sa_IN.dic',
+   'DATA'),
+  ('pyphen\\dictionaries\\hyph_mn_MN.dic',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\pyphen\\dictionaries\\hyph_mn_MN.dic',
+   'DATA'),
+  ('dateutil\\zoneinfo\\dateutil-zoneinfo.tar.gz',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\dateutil\\zoneinfo\\dateutil-zoneinfo.tar.gz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\Stocks.csv',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Stocks.csv',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\msft.csv',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\msft.csv',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home-symbolic.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-poster.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-poster.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move-symbolic.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\hand.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\matplotlibrc',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\matplotlibrc',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagdo8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagdo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\goog.npz',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\goog.npz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\eeg.dat',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\eeg.dat',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\data_x_x2_x3.csv',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\data_x_x2_x3.csv',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\logo2.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\logo2.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\membrane.dat',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\membrane.dat',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help-symbolic.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\README.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\README.txt',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward-symbolic.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\home.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\petroff10.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\petroff10.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back-symbolic.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\topobathy.npz',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\topobathy.npz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\hand.pdf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\kpsewhich.lua',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\kpsewhich.lua',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\back.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\move.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\hand.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help.svg',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help_large.png',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\images\\help_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
+   'DATA'),
+  ('certifi\\py.typed',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\certifi\\cacert.pem',
    'DATA'),
   ('setuptools-65.5.0.dist-info\\entry_points.txt',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\entry_points.txt',
    'DATA'),
-  ('numpy-2.2.6.dist-info\\RECORD',
+  ('setuptools-65.5.0.dist-info\\RECORD',
    'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\RECORD',
-   'DATA'),
-  ('numpy-2.2.6.dist-info\\DELVEWHEEL',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\DELVEWHEEL',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\INSTALLER',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\INSTALLER',
-   'DATA'),
-  ('numpy-2.2.6.dist-info\\INSTALLER',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\INSTALLER',
-   'DATA'),
-  ('setuptools-65.5.0.dist-info\\LICENSE',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\LICENSE',
-   'DATA'),
-  ('numpy-2.2.6.dist-info\\METADATA',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\METADATA',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\RECORD',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\RECORD',
-   'DATA'),
-  ('setuptools-65.5.0.dist-info\\WHEEL',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\WHEEL',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\METADATA',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\METADATA',
-   'DATA'),
-  ('setuptools-65.5.0.dist-info\\METADATA',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\METADATA',
-   'DATA'),
-  ('numpy-2.2.6.dist-info\\WHEEL',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\WHEEL',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\top_level.txt',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\top_level.txt',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\WHEEL',
-   'C:\\Users\\Elias '
-   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\WHEEL',
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\RECORD',
    'DATA'),
   ('setuptools-65.5.0.dist-info\\REQUESTED',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\REQUESTED',
    'DATA'),
+  ('setuptools-65.5.0.dist-info\\METADATA',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\METADATA',
+   'DATA'),
+  ('numpy-2.2.6.dist-info\\METADATA',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\METADATA',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\METADATA',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\METADATA',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\INSTALLER',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('numpy-2.2.6.dist-info\\DELVEWHEEL',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\DELVEWHEEL',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\top_level.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\top_level.txt',
+   'DATA'),
   ('numpy-2.2.6.dist-info\\entry_points.txt',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\entry_points.txt',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\RECORD',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\RECORD',
    'DATA'),
   ('markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
    'DATA'),
+  ('setuptools-65.5.0.dist-info\\LICENSE',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\top_level.txt',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\top_level.txt',
+   'DATA'),
   ('numpy-2.2.6.dist-info\\LICENSE.txt',
    'C:\\Users\\Elias '
    'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\WHEEL',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\WHEEL',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\WHEEL',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\markupsafe-3.0.3.dist-info\\WHEEL',
+   'DATA'),
+  ('numpy-2.2.6.dist-info\\WHEEL',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\WHEEL',
+   'DATA'),
+  ('numpy-2.2.6.dist-info\\RECORD',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\RECORD',
+   'DATA'),
+  ('numpy-2.2.6.dist-info\\INSTALLER',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\numpy-2.2.6.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools-65.5.0.dist-info\\INSTALLER',
+   'C:\\Users\\Elias '
+   'Alcaide\\Desktop\\MrViruz\\AppEntrenador\\venv\\lib\\site-packages\\setuptools-65.5.0.dist-info\\INSTALLER',
    'DATA'),
   ('base_library.zip',
    'C:\\Users\\Elias '

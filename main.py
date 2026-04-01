@@ -87,17 +87,30 @@ def main(page: ft.Page):
         )
     )
 def asegurar_columnas():
-    try:
-        conn = sqlite3.connect('entrenador.db')
-        c = conn.cursor()
-        c.execute("ALTER TABLE evaluaciones ADD COLUMN perimetro_brazos FLOAT")
-        c.execute("ALTER TABLE evaluaciones ADD COLUMN perimetro_piernas FLOAT")
-        conn.commit()
-        conn.close()
-    except Exception:
-        pass # Si da error, es porque las columnas ya existen. ¡Todo bien!
-    
-# CAMBIO IMPORTANTE: Nueva forma de iniciar la app en Flet 0.80+
+    conn = sqlite3.connect('entrenador.db')
+    c = conn.cursor()
+
+    # Lista de todas las columnas nuevas que hemos ido agregando con el tiempo
+    columnas_nuevas = [
+        ("perimetro_brazos", "FLOAT"),
+        ("perimetro_piernas", "FLOAT"),
+        ("metodo_grasa", "TEXT"),
+        ("suma_pliegues", "FLOAT")
+    ]
+
+    # Intentamos agregar una por una
+    for nombre_col, tipo_col in columnas_nuevas:
+        try:
+            c.execute(f"ALTER TABLE evaluaciones ADD COLUMN {nombre_col} {tipo_col}")
+        except Exception:
+            # Si esta columna en específico ya existe, SQLite da error. 
+            # Lo ignoramos con 'pass' y el bucle sigue con la próxima columna.
+            pass 
+
+    conn.commit()
+    conn.close()
+
+# --- Iniciar la app ---
 asegurar_columnas()
 Base.metadata.create_all(bind=engine)
 ft.app(target=main)
